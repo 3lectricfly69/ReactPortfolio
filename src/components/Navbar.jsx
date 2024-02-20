@@ -1,8 +1,10 @@
-import React from "react";
+// import React from "react";
 // import { useSelector } from "react-redux";
 // import { Col, Row, Container } from "../Grid/Grid";
 import "./UI/Navbar.css";
-import { Link }  from "react-router-dom";
+import Link  from "react-router-dom";
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
 
 export default function Navbar() {
@@ -10,7 +12,7 @@ export default function Navbar() {
     return(
     
         <div className="Navbar">
-        <Row>
+        {/* <Row> */}
             <div className="name">
             <p className="text">Marlie Ford</p>
             </div>
@@ -62,8 +64,8 @@ export default function Navbar() {
                     </p>
                 </Link>
             </div>
-        </Row>
+        {/* </Row> */}
         </div>
-    );
+    )
 
-};
+}

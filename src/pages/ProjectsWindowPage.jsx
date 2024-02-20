@@ -7,6 +7,8 @@ import { Navbar } from "../components/Navbar.jsx";
 import { Footer } from "../components/Footer.jsx";
 import "../components/UI/Projects.css";
 
+export default ProjectsWindowPage
+
 // import { QUERY_SINGLE_PROFILE } from '../utils/queries';
 
 // const Profile = () => {

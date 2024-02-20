@@ -1,13 +1,23 @@
 // header, link React/dom/css/footer/
-import { React } from "react";
-import { Header } from "../components/Header.jsx";
-import { Navbar } from "../components/Navbar.jsx";
-import { Footer } from "../components/Footer.jsx";
+import React from "react";
+// import Link from "react-router-dom";
+import "../components/UI/Home.css";
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
 
 // import ProfileList from '../components/ProfileList';
 // import ProfileForm from '../components/ProfileForm';
 
 const Home = () => {
+    return (
+        <Page><div className="OurFormula" ><h2>Be Interactive.</h2></div>
+        <div className="DoIt2It" ><h3>Engage with oneself by cherishing this.</h3></div></Page>
+    )
+    };
+
+export default Home
+
+// const Home = () => {
 // return (
 //     <ul>
 //         <li>Create Responsive Single-Page Applications</li>
@@ -17,33 +27,30 @@ const Home = () => {
 //     </ul>
 //     );
 
-return (
-    <main>
-    <div className="flex-row justify-center">
-        <div
-        className="col-12 col-md-10 mb-3 p-3"
-        style={{ border: '1px dotted #1a1a1a' }}
-        >
-        <ProfileForm />
-        </div>
+// return (
+//     <main>
+//     <div className="flex-row justify-center">
+//         <div
+//         className="col-12 col-md-10 mb-3 p-3"
+//         style={{ border: '1px dotted #1a1a1a' }}
+//         >
+//         <ProfileForm />
+//         </div>
 
-        <div className="col-12 col-md-10 my-3">
-        {loading ? (
-            <div>Loading...</div>
-        ) : (
-            <ProfileList
-            profiles={profiles}
-            title="Here's the current roster of friends..."
-            />
-        )}
-        </div>
-    </div>
-    </main>
-);
-};
-
-export default Home;
-
+//         <div className="col-12 col-md-10 my-3">
+//         {loading ? (
+//             <div>Loading...</div>
+//         ) : (
+//             <ProfileList
+//             profiles={profiles}
+//             title="Here's the current roster of friends..."
+//             />
+//         )}
+//         </div>
+//     </div>
+//     </main>
+// );
+// };
 
 // here we destructure our props into their own distinct variables
 // export default function welcome home({ loggedIn, setLoggedIn }) {

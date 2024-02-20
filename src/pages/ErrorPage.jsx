@@ -8,8 +8,8 @@ console.error(error);
 
 return (
     <div id="error-page">
-    <h1>Op !</h1>
-    <p>It seems an unexpected error has occurred.</p>
+    <h1 className='interjection'>Op !</h1>
+    <p className='errorMsg'>It seems an unexpected error has occurred.</p>
     <p>
         <i>{error.statusText || error.message}</i>
     </p>
