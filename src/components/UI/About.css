@@ -3,11 +3,11 @@
     width: 60%;
     height: auto;
     margin: auto;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 20% 80%;
     align-items: center;
     font-family: 'SimsSun';
     text-orientation: calc(40);
-    background-color: rgb(196, 196, 200);
+    background-color: rgb(55, 55, 55);
     border-radius: 25px 25px 25px 25px;
     margin-top: 69px;
 }

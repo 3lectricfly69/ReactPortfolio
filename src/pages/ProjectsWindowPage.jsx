@@ -1,22 +1,12 @@
-// import SkillsList from '../components/SkillsList';
-// import SkillForm from '../components/SkillForm';
 // header, link React/dom/css/footer/
 import { React } from "react";
-import { Header } from "../components/Header.jsx";
-import { Navbar } from "../components/Navbar.jsx";
-import { Footer } from "../components/Footer.jsx";
 import "../components/UI/Projects.css";
 
-export default ProjectsWindowPage
-
-// import { QUERY_SINGLE_PROFILE } from '../utils/queries';
-
-// const Profile = () => {
-//   const { profileId } = useParams();
-
-//   const { loading, data } = useQuery(QUERY_SINGLE_PROFILE, {
-//     variables: { profileId: profileId },
-//   });
+const ProjectsWindowPage = () => {
+    return (
+        <div></div>
+    )
+}
 
 //   const profile = data?.profile || {};
 
@@ -38,7 +28,7 @@ export default ProjectsWindowPage
 //   );
 // };
 
-// export default Profile;
+export default ProjectsWindowPage
 
     // Fetch whatevs upon being loaded.
     // fetchWhatevs();

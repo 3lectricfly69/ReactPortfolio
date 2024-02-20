@@ -1,10 +1,12 @@
 import React from "react";
 import "./UI/Header.css";
 
-export default function Header() {
+const Header = () => {
     return (
-    <div style={styles.container}>
+    <div>
         <p>Marlie Ford</p>
     </div>
     );
 }
+
+export default Header;

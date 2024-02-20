@@ -8,14 +8,16 @@ import "../components/UI/Home.css";
 // import ProfileList from '../components/ProfileList';
 // import ProfileForm from '../components/ProfileForm';
 
-const Home = () => {
+const HomePage = () => {
     return (
-        <Page><div className="OurFormula" ><h2>Be Interactive.</h2></div>
-        <div className="DoIt2It" ><h3>Engage with oneself by cherishing this.</h3></div></Page>
+        <div>
+        <div className="OurFormula" ><h2>Be Interactive.</h2></div>
+        <div className="DoIt2It" ><h3>Engage with oneself by cherishing this.</h3></div>
+        </div>
     )
-    };
+    }
 
-export default Home
+export default HomePage
 
 // const Home = () => {
 // return (

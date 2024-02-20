@@ -2,6 +2,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App";
 
+import React from "react";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
@@ -22,33 +23,30 @@ const router = createBrowserRouter([
         element: <HomePage />,
     },
     {
-        path: "/about",
+        path: "/About",
         element: <AboutPage />,
     },
     {
-        path: "/contact",
+        path: "/Contact",
         element: <ContactPage />,
     },
     {
-        path: "/resume",
+        path: "/Resume",
         element: <ResumePage />,
     },
     {
-        path: "/projects",
+        path: "/Projects",
         element: <ProjectsWindowPage />,
     },
     {
-        path: "/gallery",
+        path: "/Gallery",
         element: <GalleryPage />,
     },
     ],
 },
 ]);
 
-
-
 // Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
 );
-// ReactDOM.createRoot(document.getElementById('root')).render(<App />);

@@ -1,5 +1,6 @@
 // header, link React/dom/css/footer/
-import "../components/UI/About.css";
+import "../components/UI/About.css"
+import React from 'react'
 
 const styles = {
     card: {
@@ -17,7 +18,7 @@ const styles = {
     content: {
     padding: 20,
     },
-};
+}
 
   // In `Card`, we can assign a style from an object by using curly braces
   // We are assigning the card, heading, and content all from our `style` object
@@ -32,15 +33,4 @@ const AboutPage = () => {
     )
 }
 
-export default AboutPage;
-
-
-
-
-
-
-export default function About() {
-    return (
-    <div></div>
-    )
-};
+export default AboutPage

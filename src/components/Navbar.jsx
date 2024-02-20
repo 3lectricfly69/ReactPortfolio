@@ -1,10 +1,8 @@
-// import React from "react";
 // import { useSelector } from "react-redux";
-// import { Col, Row, Container } from "../Grid/Grid";
 import "./UI/Navbar.css";
-import Link  from "react-router-dom";
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import { Link }  from "react-router-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 
 export default function Navbar() {
@@ -18,7 +16,7 @@ export default function Navbar() {
             </div>
         
             <div>
-            <Link to="/HomePage">
+            <Link to="/">
                 <p className="homePage">
                 Home
                 </p>
@@ -26,7 +24,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to="/AboutPage">
+                <Link to="/About">
                     <p className="aboutPage">
                     About
                     </p>
@@ -34,7 +32,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to="/ContactPage">
+                <Link to="/Contact">
                     <p className="contactPage">
                     Contact
                     </p>
@@ -42,7 +40,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to="/ResumePage">
+                <Link to="/Resume">
                     <p className="resumePage">
                     Resume
                     </p>
@@ -50,7 +48,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to="/ProjectsWindowPage">
+                <Link to="/Projects">
                     <p className="projectsPage">
                     Projects
                 </p>
@@ -58,7 +56,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to = "/GalleryPage">
+                <Link to = "/Gallery">
                     <p className="galleryPage">
                     Gallery
                     </p>
