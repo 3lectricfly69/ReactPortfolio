@@ -1,33 +1,85 @@
 .Footer {
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    justify-content:center;
+    align-items: center;
+    font-family: 'SimsSun'; 
+    padding: 0%; 
+    color:rgb(255, 255, 255);
+    background-color: #04040400;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    grid-template-rows: 70% 30%;
+    grid-template-columns: 25% 25% 25% 25%;
+    display: grid;
+    opacity: .9;
+    box-shadow: top;
+    box-shadow: 2px 2px 2px 2px #faf5f3;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
 }
 
 #X {
-
+    font-family: 'monospace';
+    font-weight: auto;
+    margin-right: 14px;
+    font-weight: bold;
 }
 
-.FooterText {
-
+.React {
+    text-align: center;
+    font-family: 'SimsSun';
+    font-weight: bold;
+    /* font-size: 17px; */
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 
 .reactLogo {
-
+    width: 50px;
+    height: auto;
+    background: transparent !important;
+    mix-blend-mode: multiply;
+    background-blend-mode: exclusion !important;
 }
 
 .FooterMsg {
-    
+    text-align: center;
+    font-family: 'SimsSun';
+    font-weight: bold;
+    /* font-size: 17px; */
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 .igAnimation {
-
+    width: 50px;
+    height: auto;
+    /* background: transparent !important; */
+    /* mix-blend-mode: multiply; */
+    /* background-blend-mode: exclusion !important; */
+    box-shadow: none;
 }
 
 .linkedinAnimation {
-
+    width: 50px;
+    height: auto;
+    background: transparent !important;
+    mix-blend-mode: multiply;
+    background-blend-mode: exclusion !important;
 }
 
 .spotifyAnimation {
-
+    width: 50px;
+    height: auto;
+    background: transparent !important;
+    mix-blend-mode: multiply;
+    background-blend-mode: exclusion !important;
 }
 

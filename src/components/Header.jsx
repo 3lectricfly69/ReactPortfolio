@@ -4,7 +4,7 @@ import "./UI/Header.css";
 const Header = () => {
     return (
     <div>
-        <p>Marlie Ford</p>
+        <p className="jovial-jumbotron">Marlie Ford</p>
     </div>
     );
 }

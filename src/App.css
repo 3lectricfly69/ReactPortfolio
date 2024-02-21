@@ -4,12 +4,20 @@
     margin: 0;
     padding: 0;
     font-family: 'SimsSun';
+    background-color: #0000;
 }
 
 body {
     font-family: 'SimsSun';
     font-size: 16px;
-    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(2, 255, 82));
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(21, 96, 35),rgb(2, 255, 82));
+    height: 1000px;
+}
+
+.body {
+    font-family: 'SimsSun';
+    font-size: 16px;
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(21, 96, 35),rgb(2, 255, 82));
     height: 1000px;
 }
 
@@ -26,7 +34,7 @@ textarea {
 }
 
 .title {
-    background-image: url("./Images/wood.jpg");
+    /* background-image: url("./Images/wood.jpg"); */
     font-size: large;
     color: rgb(0, 0, 0);
     height: 200px;
@@ -40,7 +48,7 @@ textarea {
     /* margin-left: 30%; */
 }
 
-#tagLine {
+/* #tagLine {
     text-align: center;
     color: rgb(0, 0, 0);
 
@@ -58,8 +66,8 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
+} */
+/* 
 .recent {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -76,7 +84,7 @@ textarea {
 
 #events {
 
-}
+} */
 
 /* 
 margin-top: 0.625rem; /* 10px */

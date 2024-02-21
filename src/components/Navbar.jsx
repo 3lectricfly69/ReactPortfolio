@@ -3,20 +3,17 @@ import "./UI/Navbar.css";
 import { Link }  from "react-router-dom";
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import Header from "./Header";
 
 export default function Navbar() {
 
     return(
-    
+        
         <div className="Navbar">
         {/* <Row> */}
-            <div className="name">
-            <p className="text">Marlie Ford</p>
-            </div>
-        
+            <Header></Header>
             <div>
-            <Link to="/">
+            <Link className="HomeLink" to="/">
                 <p className="homePage">
                 Home
                 </p>
@@ -24,7 +21,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to="/About">
+                <Link className="HomeLink" to="/About">
                     <p className="aboutPage">
                     About
                     </p>
@@ -32,7 +29,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to="/Contact">
+                <Link className="HomeLink" to="/Contact">
                     <p className="contactPage">
                     Contact
                     </p>
@@ -40,7 +37,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to="/Resume">
+                <Link className="HomeLink" to="/Resume">
                     <p className="resumePage">
                     Resume
                     </p>
@@ -48,7 +45,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to="/Projects">
+                <Link className="HomeLink" to="/Projects">
                     <p className="projectsPage">
                     Projects
                 </p>
@@ -56,7 +53,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <Link to = "/Gallery">
+                <Link className="HomeLink" to = "/Gallery">
                     <p className="galleryPage">
                     Gallery
                     </p>

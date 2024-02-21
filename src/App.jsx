@@ -13,8 +13,7 @@ import React, { Component } from 'react';
     return (
       <>
         <Navbar className="Navbar"/>
-        <Header className="Header" />
-        <div className="Container">
+        <div className="body">
           <Outlet className="Outlet" />
         </div>
         <Footer class="Footer"/>

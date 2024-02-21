@@ -13,8 +13,8 @@ const Footer = () => {
 return (
     <div className="Footer" style={styles.container}>
     <p id="X">&copy; {new Date().getFullYear()}</p>
-    <p className="FooterText"> Generated using React via Marlie </p>
-    <button id="reactLogo"><img id="FooterIcon" src="../public/images/React-animation.gif" alt="FooterIcon" /></button>
+    <p className="React"> Generated using React via Marlie </p>
+    <a href="https://react.dev/" ><button id="reactLogo"><img id="FooterIcon" src="../public/images/React-Animation01.gif" alt="FooterIcon" /></button></a>
     <p className="FooterMsg"> Get connected 4 free </p>
     <a href="https://www.instagram.com/marlieford/"><button><img src="../public/images/Instagram-Animation.gif" alt="IGClick" className="igAnimation"/></button></a>
     <p className="LinkedIn"></p>

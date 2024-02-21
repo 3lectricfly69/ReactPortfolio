@@ -5,8 +5,10 @@ import "../components/UI/Resume.css";
 
 const ResumePage = () => {
     return (
-        <div>Free Download</div>
-    )
+        <div id="resume">
+        <a className="resumeContent" href="../public/resume/resume.pdf">View Resume Here</a>
+        <a href="" ><img className="resumeLinkImg" src="../public/images/resume.jpeg" alt="resumeImg"/></a></div>
+    );
 }
 
 export default ResumePage 
