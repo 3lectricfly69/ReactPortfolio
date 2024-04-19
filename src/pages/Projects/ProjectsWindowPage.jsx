@@ -1,6 +1,6 @@
 // header, link React/dom/css/footer/
 import { React } from "react";
-import "../components/UI/Projects.css";
+import "../../styles/Projects.css";
 
 const ProjectsWindowPage = () => {
     return (

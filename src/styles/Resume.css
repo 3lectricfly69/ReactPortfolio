@@ -1,0 +1,38 @@
+#resume {
+    color: #faf5f3;
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: 700px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    margin-top: 0%;
+    /* margin-left: 0%; */
+    /* margin-right: 0%; */
+    /* margin-bottom: 0%; */
+}
+
+.resumeContent {
+    /* align-items: center;
+    align-content: center; */
+    /* text-align: center; */
+    margin-top: 22px;
+    margin-left: 200px;
+    margin-bottom: 0%;
+    color: #faf5f3;
+    width: 500px;
+    height: 35px;
+    font-size: 12px;
+}
+
+.resumeLinkImg {
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    width: 500px;
+    height: 700px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+n

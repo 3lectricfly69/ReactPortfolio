@@ -1,0 +1,16 @@
+.gallerybody {
+    width: 100%;
+    height: inherit;
+}
+
+.galleryTiles {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: 200px;
+    outline-style: dotted;
+    outline-color: green;
+}
+
+{
+
+}

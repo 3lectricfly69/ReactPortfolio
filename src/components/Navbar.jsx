@@ -1,5 +1,5 @@
 // import { useSelector } from "react-redux";
-import "./UI/Navbar.css";
+import "../styles/Navbar.css";
 import { Link }  from "react-router-dom";
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -8,59 +8,50 @@ import Header from "./Header";
 export default function Navbar() {
 
     return(
-        
-        <div className="Navbar">
-        {/* <Row> */}
-            <Header></Header>
-            <div>
-            <Link className="HomeLink" to="/">
-                <p className="homePage">
-                Home
-                </p>
-            </Link>
-            </div>
-
-            <div>
+    <div className="Navbar">
+    {/* <Row> */}
+            {/* <Row> */}
+    <p className="headIn" ><Header></Header></ p>
+               {/* <Row> */}
+            <div className="row3" >
+                <Link className="HomeLink" to="/">
+                    <p className="homePage">
+                    HOME
+                    </p>
+                </Link>
                 <Link className="HomeLink" to="/About">
                     <p className="aboutPage">
-                    About
+                    ABOUT
                     </p>
                 </Link>
-            </div>
 
-            <div>
                 <Link className="HomeLink" to="/Contact">
                     <p className="contactPage">
-                    Contact
+                    CONTACT
                     </p>
                 </Link>
-            </div>
 
-            <div>
                 <Link className="HomeLink" to="/Resume">
                     <p className="resumePage">
-                    Resume
+                    RESUME
                     </p>
                 </Link>
-            </div>
 
-            <div>
                 <Link className="HomeLink" to="/Projects">
                     <p className="projectsPage">
-                    Projects
+                    PROJECTS
                 </p>
             </Link>
-            </div>
 
-            <div>
                 <Link className="HomeLink" to = "/Gallery">
                     <p className="galleryPage">
-                    Gallery
+                    GALLERY
                     </p>
+
                 </Link>
             </div>
         {/* </Row> */}
-        </div>
+    </div>
     )
 
 }

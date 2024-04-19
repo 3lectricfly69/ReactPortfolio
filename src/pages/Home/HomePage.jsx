@@ -1,7 +1,7 @@
 // header, link React/dom/css/footer/
 import React from "react";
 // import Link from "react-router-dom";
-import "../components/UI/Home.css";
+import "../../styles/Home.css";
 // import Header from "./components/Header";
 // import Footer from "./components/Footer";
 

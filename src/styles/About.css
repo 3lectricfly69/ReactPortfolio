@@ -1,0 +1,97 @@
+.AboutPageCard {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: center; */
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    grid-template-rows: 20% 80%;
+    font-family: 'SimsSun';
+    text-orientation: calc(40);
+    background-color: #0000;
+    box-shadow: inset;
+    box-shadow: 1px 1px 1px 1px #faf5f3;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    animation: glow 2s ease-in-out infinite alternate;
+    color: rgb(2, 255, 82);
+}
+
+@keyframes glow {
+    from {
+    box-shadow: 0 0 3px #fff, 0 0 6px rgb(2, 255, 82), 0 0 9px #3d9b34, 0 0 10px rgb(2, 255, 82), 0 0 9px rgb(2, 255, 82), 0 0 6px #3d9b34, 0 0 3px #ffffff;
+    }
+    
+    to {
+        box-shadow: 0 0 3px #fff, 0 0 6px rgb(2, 255, 82), 0 0 9px #3d9b34, 0 0 10px rgb(2, 255, 82), 0 0 9px rgb(2, 255, 82), 0 0 6px #3d9b34, 0 0 3px #ffffff;
+    }
+}
+
+.profileImg {
+    width: 240px;
+    height: 260px;
+    margin-left: 880px;
+    margin-top: 0px;
+    border-radius: 25px 25px 25px 25px;
+    animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+        box-shadow: 0 0 3px #fff, 0 0 6px rgb(2, 255, 82), 0 0 9px #3d9b34, 0 0 10px rgb(2, 255, 82), 0 0 9px rgb(2, 255, 82), 0 0 6px #3d9b34, 0 0 3px #ffffff;
+        }
+        
+        to {
+            box-shadow: 0 0 3px #fff, 0 0 6px rgb(2, 255, 82), 0 0 9px #3d9b34, 0 0 10px rgb(2, 255, 82), 0 0 9px rgb(2, 255, 82), 0 0 6px #3d9b34, 0 0 3px #ffffff;
+        }
+    }
+
+    .aboutWrap {
+    display: flow-root;
+    /* align-items: center; */
+    text-align: center;
+    margin-left: 0px;
+    background-color: #0000;
+    font-family: 'SimsSun';
+    font-size: 20px;
+    height: 33.33px;
+    margin-top: 0px;
+    border: dotted 1.4px #3d9b34;
+    width: 800px;
+    border-radius: 25px 25px 25px 25px;
+    }
+
+.Heading {
+    text-align: center;
+    color: #faf5f3;
+    font-size: 17px;
+    font-family: 'SimsSun';
+    font-style: normal;
+    font: monospace;
+    font-weight: bold;
+    font-display: auto;
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#Msg {
+    /* align-items: center; */
+    /* text-align: center; */
+    text
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 750px;
+    height: 500px;
+    font-size: 16px;
+    font-family: 'SimsSun';
+    font: monospace;
+    font-style: normal;
+    font: message-box;
+    font-weight: normal;
+    color: #faf5f3;
+}

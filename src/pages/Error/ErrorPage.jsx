@@ -1,6 +1,6 @@
 // header, link React/dom/css/footer/
 import { useRouteError } from 'react-router-dom';
-import '../components/UI/ErrorPage.css';
+import '../../styles/ErrorPage.css';
 
 const ErrorPage = () => {
 const error = useRouteError();
