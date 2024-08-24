@@ -1,1 +1,14 @@
-.
+.galleryTiles {
+    width: 150px;
+    /* height: inherit; */
+}
+
+.galleryTile {
+    /* height: auto; */
+    width: 970px;
+}
+
+.galleryBody {
+    /* height: inherit; */
+    width: 80%;
+}

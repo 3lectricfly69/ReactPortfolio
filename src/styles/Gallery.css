@@ -1,16 +1,25 @@
-.gallerybody {
+.galleryBody {
     width: 100%;
     height: inherit;
 }
 
 .galleryTiles {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    /* grid-template-columns: 20% 20% 20% 20% 20%; */
+    /* grid-template-rows: 20% 20% 20% 20% 20%; */
+    grid-template-columns: 202.534px 202.534px 202.534px 202.534px 202.534px;
+    grid-template-rows: 202.534px 202.534px 202.534px 202.534px 202.534px;
     height: 200px;
     outline-style: dotted;
     outline-color: green;
 }
 
-{
+.galleryTile {
+    outline-style: dotted;
+    outline-color: green;
+}
 
+.galleryTile1 {
+    outline-style: dotted;
+    outline-color: green;
 }

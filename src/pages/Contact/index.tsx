@@ -48,7 +48,7 @@ export default function Contact() {
     return (
         <section id="contact">
             <div className={styles.title}>
-                <h1>Contact</h1>
+                <h1></h1>
                 <hr />
             </div>
             <div className={styles.contentContainer}>
@@ -91,12 +91,13 @@ export default function Contact() {
                         </div>
                         <div className="info-container">
                             <span className={styles.contactHeader}>Find Me On</span>
-                            <p>Feel free to connect with me or send me a message.</p>
+    
+                            <p className='link'>Feel free to connect with me and send me a message.</p>
                             <div className={styles.buttonContainer}>
-                                <a href="https://github.com/3lectricfly69" role="button" target="_blank">
+                                <a className='IT' href="https://github.com/3lectricfly69" role="button" target="_blank">
                                     <GithubLight /> GitHub
                                 </a>
-                                <a href="https://www.linkedin.com/in/marlie-ford/" role="button" target="_blank">
+                                <a className='symbiosis' href="https://www.linkedin.com/in/marlie-ford/" role="button" target="_blank">
                                     <LinkedIn /> LinkedIn
                                 </a>
                             </div>

@@ -17,10 +17,11 @@
     display: grid;
     opacity: .9;
     box-shadow: top;
-    box-shadow: 2px 2px 2px 2px #faf5f3;
+    box-shadow: 1px 1px 1px 1px #faf5f3;
     border-radius: 25px 25px 0px 0px;
-    /* margin-top: 0px;  */
+    /* margin-top: 20px;  */
     margin-bottom: 0px;
+    height: 120px;
 }
 
 #X {
@@ -31,7 +32,7 @@
 }
 
 .div01 {
-    background-color: black;
+    background-color: black !important;
 }
 
 /* .body {
@@ -42,20 +43,24 @@
 } */
 
 .React {
-    text-align: center;
+    text-align: left;
     font-family: 'SimsSun';
     font-weight: bold;
     margin-left: 10px;
     margin-top: 5px;
+    size: 50px;
 }
 
+.FooterIcon {
+    size: 50px;
+}
 
 .reactLogo {
     height: auto;
     background: transparent !important;
     mix-blend-mode: multiply;
     background-blend-mode: exclusion !important;
-    width: 25px;
+    width: 20px;
     size: small;
 }
 
@@ -69,7 +74,7 @@
 }
 
 .igAnimation {
-    width: 50px;
+    width: 75px;
     height: auto;
     /* background: transparent !important; */
     /* mix-blend-mode: multiply; */
@@ -93,3 +98,7 @@
     /* background-blend-mode: exclusion !important; */
 }
  */
+.Blips {
+    width: 75px;
+    height: inherit;
+}
