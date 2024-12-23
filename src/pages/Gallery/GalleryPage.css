@@ -1,14 +1,58 @@
-.galleryTiles {
-    width: 150px;
-    /* height: inherit; */
+.galleryPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.galleryContent {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galleryTitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1200px; /* Adjust this value based on your desired maximum width */
+    width: 100%;
 }
 
 .galleryTile {
-    /* height: auto; */
-    width: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1; /* This ensures tiles remain square */
 }
 
-.galleryBody {
-    /* height: inherit; */
-    width: 80%;
+.galleryTile img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .galleryGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .galleryGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .galleryGrid {
+        grid-template-columns: 1fr;
+    }
 }

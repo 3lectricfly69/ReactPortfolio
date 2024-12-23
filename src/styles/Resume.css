@@ -17,9 +17,9 @@
     /* align-items: center;
     align-content: center; */
     /* text-align: center; */
-    margin-top: 18px;
+    margin-top: 0px;
     margin-left: 165px;
-    margin-bottom: 0%;
+    margin-bottom: 50px;
     color: #faf5f3;
     width: 700px;
     height: 35px;
@@ -31,7 +31,7 @@
     text-align: center;
     margin-left: 50px;
     width: 500px;
-    height: 700px;
-    margin-top: 0px;
+    height: 1000px;
+    margin-top: 10px;
     margin-bottom: 0%;
 }

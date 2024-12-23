@@ -1,58 +1,38 @@
 .AboutPageCard {
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
-    /* align-items: center; */
-    text-align: center;
-    /* justify-content: center; */
+    flex-direction: column;
+    justify-content: space-between;
     width: 800px;
-    height: 500px;
-    margin: auto;
-    grid-template-rows: 20% 80%;
-    font-family: 'SimsSun';
-    text-orientation: calc(40);
-    background-color: #0000;
-    box-shadow: inset;
-    box-shadow: 1px 1px 1px 1px #faf5f3;
-    border-radius: 25px 25px 25px 25px;
-    margin-top: 60px;
-    margin-bottom: 0px;
-    margin-left: 10px;
-    animation: glow 2s ease-in-out infinite alternate;
-    color: rgb(2, 255, 82);
+    height: 400px;
+    margin: 60px auto 0px;
+    /* Other existing styles */
+}
+
+#Proflex.profileImg {
+    margin-left: 0px;
+    width:220px;
 }
 
 @keyframes glow {
-    from {
-    box-shadow: 0 0 3px #fff, 0 0 6px rgb(2, 255, 82), 0 0 9px #3d9b34, 0 0 10px rgb(2, 255, 82), 0 0 9px rgb(2, 255, 82), 0 0 6px #3d9b34, 0 0 3px #ffffff;
-    }
-    
-    to {
+    from, to {
         box-shadow: 0 0 3px #fff, 0 0 6px rgb(2, 255, 82), 0 0 9px #3d9b34, 0 0 10px rgb(2, 255, 82), 0 0 9px rgb(2, 255, 82), 0 0 6px #3d9b34, 0 0 3px #ffffff;
     }
 }
 
 .profileImg {
+    position: absolute;
+    bottom: 0;
+    right: -215px;
     width: 240px;
     height: 260px;
-    margin-left: 880px;
-    margin-top: 0px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px;
     animation: glow 2s ease-in-out infinite alternate;
-    }
+    margin-left: 0px;
+}
 
-    @keyframes glow {
-        from {
-        box-shadow: 0 0 3px #fff, 0 0 6px rgb(2, 255, 82), 0 0 9px #3d9b34, 0 0 10px rgb(2, 255, 82), 0 0 9px rgb(2, 255, 82), 0 0 6px #3d9b34, 0 0 3px #ffffff;
-        }
-        
-        to {
-            box-shadow: 0 0 3px #fff, 0 0 6px rgb(2, 255, 82), 0 0 9px #3d9b34, 0 0 10px rgb(2, 255, 82), 0 0 9px rgb(2, 255, 82), 0 0 6px #3d9b34, 0 0 3px #ffffff;
-        }
-    }
-
-    .aboutWrap {
+.aboutWrap {
     display: flow-root;
-    /* align-items: center; */
     text-align: center;
     margin-left: 0px;
     background-color: #0000;
@@ -62,8 +42,8 @@
     margin-top: 0px;
     border: dotted 1.4px #3d9b34;
     width: 800px;
-    border-radius: 25px 25px 25px 25px;
-    }
+    border-radius: 25px;
+}
 
 .Heading {
     text-align: center;
@@ -75,23 +55,29 @@
     font-weight: bold;
     font-display: auto;
     width: 800px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
 #Msg {
-    /* align-items: center; */
-    /* text-align: center; */
-    text
-    margin-top: 20px;
+    margin-top: 50px; /* Added top margin */
+    margin-bottom: 50px; /* Added bottom margin */
     margin-left: 10px;
     width: 750px;
-    height: 500px;
+    height: auto; /* Change height to auto to accommodate content */
     font-size: 16px;
     font-family: 'SimsSun';
     font: monospace;
     font-style: normal;
-    font: message-box;
     font-weight: normal;
     color: #faf5f3;
+    line-height: calc(1em + 2px); /* Updated line spacing to 2px */
+}
+
+.div01 {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    max-width: 1120px; /* Adjust based on your layout needs */
+    margin: 0 auto;
 }

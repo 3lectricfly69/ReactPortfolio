@@ -1,104 +1,48 @@
 .Footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: grid;
-    justify-content:center;
-    align-items: center;
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(6, 1fr); /* Adjust the number of columns as needed */
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
     font-family: 'SimsSun'; 
-    padding: 0%; 
-    color:rgb(255, 255, 255);
-    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(21, 96, 35),rgb(2, 255, 82));
+    padding: 10px; /* Add some padding */
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(21, 96, 35), rgb(2, 255, 82));
     font-size: 20px;
     font-weight: bold;
     width: 100%;
-    font-size: 20px;
-    grid-template-rows: 70% 30%;
-    grid-template-columns: 25% 25% 25% 25%;
-    display: grid;
-    opacity: .9;
-    box-shadow: top;
+    opacity: 0.9;
     box-shadow: 1px 1px 1px 1px #faf5f3;
     border-radius: 25px 25px 0px 0px;
-    /* margin-top: 20px;  */
-    margin-bottom: 0px;
-    height: 120px;
+    margin-bottom: 0;
+    height: 120px; /* You can adjust the height */
 }
 
 #X {
     font-family: 'monospace';
-    font-weight: auto;
-    margin-right: 14px;
     font-weight: bold;
 }
-
-.div01 {
-    background-color: black !important;
-}
-
-/* .body {
-    font-family: 'SimsSun';
-    font-size: 16px;
-    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(21, 96, 35),rgb(2, 255, 82));
-    height: 1000px;
-} */
 
 .React {
-    text-align: left;
-    font-family: 'SimsSun';
-    font-weight: bold;
-    margin-left: 10px;
-    margin-top: 5px;
-    size: 50px;
+    text-align: center; /* Center align the text */
 }
-
-.FooterIcon {
-    size: 50px;
-}
-
-.reactLogo {
-    height: auto;
-    background: transparent !important;
-    mix-blend-mode: multiply;
-    background-blend-mode: exclusion !important;
-    width: 20px;
-    size: small;
-}
-
+/* 
 .FooterMsg {
-    text-align: center;
-    font-family: 'SimsSun';
-    font-weight: bold;
-    /* font-size: 17px; */
-    margin-left: 10px;
-    margin-top: 5px;
-}
+    text-align: center; /* Center align the text */
+} */
 
-.igAnimation {
-    width: 75px;
+/* Adjust image sizes */
+.igAnimation,
+.linkedinAnimation,
+.spotifyAnimation {
+    width: 50px; /* Adjust image sizes */
     height: auto;
-    /* background: transparent !important; */
-    /* mix-blend-mode: multiply; */
-    /* background-blend-mode: exclusion !important; */
-    box-shadow: none;
-}
-
-.linkedinAnimation {
-    width: 50px;
-    height: auto;
-    /* background: transparent !important; */
-    /* mix-blend-mode: multiply; */
-    /* background-blend-mode: exclusion !important; */
 }
 
 .spotifyAnimation {
-    width: 50px;
-    height: auto;
-    /* background: transparent !important; */
-    /* mix-blend-mode: multiply; */
-    /* background-blend-mode: exclusion !important; */
+    transform: scale(.5,.5)
 }
- */
-.Blips {
-    width: 75px;
-    height: inherit;
+
+.linkedinAnimation {
+    transform: scale(.5,.5)
 }
+ transform scale display grid z index

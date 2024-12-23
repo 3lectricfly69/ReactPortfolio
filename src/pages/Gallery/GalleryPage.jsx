@@ -1,77 +1,27 @@
-// header, link React/dom/css/footer/
-import { React } from "react";
+import React from "react";
+import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-// import Header from "../../components/Header";
 import "../../styles/Gallery.css";
 
 const GalleryPage = () => {
-    return (
-        <p>
-        {/* <Header></Header> */}
-        {/* <a className="galleryBody">Gallery</a> */}
-        <div className="galleryTiles">
-            <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">this is a caption
-            </div></div>
-        </div>
-        <div className="galleryTiles">
-        <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">
-            </div></div>
-        </div>
-        <div className="galleryTiles">
-        <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">
-            </div></div>
-        </div>
-        <div className="galleryTiles">
-        <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">
-            </div></div>
-        </div>
-        <div className="galleryTiles">
-        <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">
-            </div></div>
-        </div>
-        <div className="galleryTiles">
-        <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">
-            </div></div>
-        </div>
-        <div className="galleryTiles">
-        <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">
-            </div></div>
-        </div>
-        <div className="galleryTiles">
-        <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">
-            </div></div>
-        </div>
-        <div className="galleryTiles">
-        <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">
-            </div></div>
-        </div>
-        <div className="galleryTiles">
-        <div className="galleryTile">
-            <img src="" alt="" />
-            <div className="caption">
-            </div></div>
-        </div>
-        <Footer></Footer>
-        </p>
-    )
-}
+    const tiles = Array(15).fill(null); // Adjust this number for your desired total of tiles
 
-export default GalleryPage
+    return (
+        <div className="galleryPage">
+            <Header />
+            <main className="galleryContent">
+                <h1 className="galleryTitle">Gallery</h1>
+                <div className="galleryGrid">
+                    {tiles.map((_, index) => (
+                        <div key={index} className="galleryTile">
+                            <img src="/Red_square.svg.png" alt={`Red Square ${index + 1}`} />
+                        </div>
+                    ))}
+                </div>
+            </main>
+            <Footer />
+        </div>
+    );
+};
+
+export default GalleryPage;
