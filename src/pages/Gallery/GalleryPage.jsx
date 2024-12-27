@@ -9,17 +9,23 @@ const GalleryPage = () => {
     return (
         <div className="galleryPage">
             <Header />
-            <main className="galleryContent">
-                <h1 className="galleryTitle">Gallery</h1>
-                <div className="galleryGrid">
-                    {tiles.map((_, index) => (
-                        <div key={index} className="galleryTile">
-                            <img src="/Red_square.svg.png" alt={`Red Square ${index + 1}`} />
-                        </div>
-                    ))}
-                </div>
-            </main>
-            <Footer />
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png" className="pic"></img>
+        <img id="img" src="../src/images/Red_square.svg.png"></img>
+        {/* <Footer></Footer> */}
         </div>
     );
 };

@@ -12,7 +12,7 @@
     font-family: 'SimsSun';
     font-weight: bold;
     /* grid-template-rows: 33.33px 33.33px 33.33px; */
-    height: 170px;
+    height: 150px;
     display: grid;
     /* opacity: .9; */
     box-shadow: inset;
@@ -44,6 +44,7 @@
     transform: scale3d(.35) !important;
     size-adjust: smaller;
     color: #ffffff;
+    margin-top: 0%;
 }
 
 .headIn {
@@ -52,12 +53,13 @@
 
 .row3 {
     height: 33.33px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     display: grid;
     width: 100%;
     grid-template-rows: 100%;
     grid-template-columns: 14% 14% 17.67% 17.67% 18.34% 18.32%;
     width: 100%;
+    margin-left: -2%;
     align-items: center;
     justify-content: center;
     color: white;

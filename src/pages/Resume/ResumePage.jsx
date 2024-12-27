@@ -8,7 +8,7 @@ const ResumePage = () => {
     return (
         <div id="resume">
         <a className="resumeContent" href="../src/pages/Resume/Document9.pdf">Click Here - - View Resume</a>
-        <a href=""><img className="resumeLinkImg" src="../src/pages/Resume/Resume.png" alt="resumeImg"/></a></div>
+        <a href="../src/pages/Resume/Document9.pdf"><img className="resumeLinkImg" src="../src/pages/Resume/Resume.png" alt="resumeImg"/></a></div>
     );
 }
 export default ResumePage
