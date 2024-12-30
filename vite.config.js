@@ -16,3 +16,5 @@ test: {
     setupFiles: './src/tests/setup.js',
 },
 });
+
+// DNS target: guarded-sparrow-0oruhha63p7flstso780vf4r.herokudns.com
