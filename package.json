@@ -9,7 +9,7 @@
         "build": "vite build",
         "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
-        "heroku-postbuild": "npm install vite --save-dev"
+        "heroku-postbuild": "npm install vite --save-dev && npm run build && npm install serve --save-dev"
     },
     "dependencies": {
         "@emailjs/browser": "^4.2.0",
