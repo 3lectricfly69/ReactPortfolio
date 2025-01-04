@@ -15,8 +15,8 @@ import ProjectsWindowPage from "./pages/Projects/ProjectsWindowPage.jsx";
 const router = createBrowserRouter([
 {
     path: "/",
-    element: <App />,
-    error: <ErrorPage />,
+    element: <App />,path,
+    errorElement: <ErrorPage />,
     children: [
     {
         index: true,
