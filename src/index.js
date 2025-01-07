@@ -12,8 +12,7 @@ ReactDOM.render(
 </React.StrictMode>,
 document.getElementById('root')
 );
-// if (process.env.NODE_ENV !== 'production') {
-//     const open = require('open');
-//     open('http://localhost:4173');
-//   }
-  
+if (process.env.NODE_ENV !== 'production') {
+    const open = require('open');
+    open('http://localhost:4173');
+  };
